@@ -4,13 +4,13 @@ French and Arabic coaching site. The coach is Mahdi. The supplied prices are unc
 
 ## Activation
 
-Update `coach-config.js` with the coach's real brand/name, WhatsApp number in international format (digits only, no starting zero), email, portrait, and diploma. Place supplied images under `assets/` and set their relative paths. Set `diplomaTitle` to the actual credential description. The diploma viewer is only exposed after an original document is configured.
+WhatsApp `213540423218` and email `mehdi.coaching07@gmail.com` are configured in `coach-config.js`. The two supplied certificates (musculation and fitness) are available in the bilingual certificate gallery. Their original scans were converted to JPEG for browser display. Add the coach's actual portrait with `coachPhoto` when supplied.
 
 `paymentUrl` is optional and accepts an HTTPS payment link from the coach's actual payment provider. It is a link, not a built-in card processor. Confirm the payment method, terms and the supplied service descriptions with the coach before taking payments.
 
 ## Request flow
 
-Visitors select a plan and goal, fill the enquiry, accept contact consent and review their message. With valid configured contacts, buttons open WhatsApp and a mail application with the prepared message. The visitor must send it in that application. No email or WhatsApp is sent automatically, and no enquiry data is stored on the site. With missing contacts the request can be copied, and the page says the contact details are pending. WhatsApp, email, the original diploma, portrait and payment details are pending. This version does not receive leads or process payments until these are supplied and configured.
+Visitors select a plan and goal, fill the enquiry, accept contact consent and review their message. With valid configured contacts, buttons open WhatsApp and a mail application with the prepared message. The visitor must send it in that application. No email or WhatsApp is sent automatically, and no enquiry data is stored on the site. With missing contacts the request can be copied, and the page says the contact details are pending. The visitor can send requests to the configured WhatsApp or email. The portrait and payment provider link remain unconfigured; the site does not process payments.
 
 ## Structure
 
@@ -18,7 +18,7 @@ Visitors select a plan and goal, fill the enquiry, accept contact consent and re
 - `styles.css`: responsive layout, RTL and reduced-motion support.
 - `app.js`: language, goals, plan selection, validation, message review, clipboard and original diploma viewer.
 - `coach-config.js`: real coach details.
-- `assets/training.jpg`: stock exercise scene, not the actual coach.
+- `training.jpg`: stock exercise scene, not the actual coach.
 
 The repository root is the static deployment output. No build dependencies are required.
 

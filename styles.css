@@ -10,3 +10,7 @@ html[dir=rtl]{--font:Tahoma,Arial,sans-serif}html[dir=rtl] h1{font-size:clamp(3.
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important}}
 
 #goal-title{white-space:pre-line}
+
+.diploma-gallery{display:grid;gap:28px}.diploma-gallery figure{margin:0;background:white;border:1px solid #cbd6c3;border-radius:6px;overflow:hidden}.diploma-gallery figcaption{padding:16px 20px;font-weight:700;background:#e6ece1}.diploma-gallery img{display:block;width:100%;height:auto}
+
+.contact-channels{flex-direction:column;align-items:flex-start;gap:14px}.contact-channels a{display:flex;flex-wrap:wrap;gap:8px;overflow-wrap:anywhere;border-bottom:1px solid #728554;padding-bottom:4px}.contact-channels a:hover{color:white}

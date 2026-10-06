@@ -9,12 +9,12 @@
     pillar1Title:'تدرّب بخطة', pillar1Body:'حصص منظمة حسب هدفك والمعدات المتاحة لك، لتعرف ماذا تفعل وكيف تتقدّم.', pillar1Tag:'برنامج رياضي', pillar2Title:'نظّم تغذيتك', pillar2Body:'توجيهات غذائية تناسب عاداتك وهدفك، مع مناقشة المكمّلات عند الحاجة.', pillar2Tag:'مرافقة غذائية', pillar3Title:'تقدّم مع مدرب', pillar3Body:'تبادل حول حصصك، الصعوبات التي تواجهك وتقدّمك لتعديل الخطوات القادمة معًا.', pillar3Tag:'متابعة شخصية',
     programsLabel:'02 / نقطة البداية', programsTitle:'ما الهدف الذي<br>يدفعك للأمام؟', programsIntro:'نبدأ بهدف، ونبني حوله مسارك.', goalMuscle:'زيادة العضلات', goalWeight:'خسارة الوزن', goalFitness:'تحسين اللياقة', goalOther:'نحدّده معًا', chooseGoal:'هذا هو هدفي',
     pricingLabel:'03 / المدة التي تناسبك', pricingTitle1:'اختر المدة.', pricingTitle2:'ونبني معًا الخطة.', pricingIntro:'تدريب، مرافقة غذائية ومتابعة شخصية في كل باقة.', plan1Tag:'الخطوة الأولى', plan1Name:'البداية', month1:'شهر واحد من التدريب', plan1Monthly:'25 000 دج / شهر', plan2Tag:'بناء الإيقاع', plan2Name:'التطوّر', month2:'شهران من التدريب', plan2Monthly:'22 500 دج / شهر · توفير 5 000 دج*', plan3Tag:'الاستمرارية', plan3Name:'التحوّل', month3:'ثلاثة أشهر من التدريب', plan3Monthly:'20 000 دج / شهر · توفير 15 000 دج*', feature1:'برنامج تدريب مناسب لمستواك', feature2:'مرافقة غذائية', feature3:'توجيهات حول المكمّلات', feature4:'متابعة وتعديلات مع المدرب', choose1:'اختر شهرًا واحدًا', choose2:'اختر شهرين', choose3:'اختر ثلاثة أشهر', savingsNote:'* مقارنة بتكلفة اشتراك شهر واحد بشكل منفصل لنفس المدة.', paymentNote:'لا دفع عند تقديم الطلب. يتم الاتفاق على طريقة الدفع مع المدرب قبل البداية.',
-    coachLabel:'التدريب أيضًا علاقة ثقة.', coachTitle1:'أنت تبذل الجهد.', coachTitle2:'ونبقى على المسار.', coachIntro:'البرنامج وحده لا يكفي. أن تسأل، تفهم التمرين وتعدّل إيقاعك: هذا ما يعطي المرافقة معناها.', talkCoach:'ناقش هدفي مع المدرب', coachCardLabel:'مرافقتك الشخصية', coachDetail1Title:'حديث قبل البداية', coachDetail1Body:'مستواك، هدفك والوقت المتاح لك.', coachDetail2Title:'تعرّف على مسار المدرب', coachDetail2Body:'ناقش تكوين المدرب ومؤهلاته خلال التواصل الأول.', coachDetail3Title:'توقعات واضحة', coachDetail3Body:'يتم توضيح محتوى المتابعة والشروط قبل التسجيل.', viewDiploma:'شاهد دبلوم المدرب',
+    coachLabel:'التدريب أيضًا علاقة ثقة.', coachTitle1:'أنت تبذل الجهد.', coachTitle2:'ونبقى على المسار.', coachIntro:'البرنامج وحده لا يكفي. أن تسأل، تفهم التمرين وتعدّل إيقاعك: هذا ما يعطي المرافقة معناها.', talkCoach:'ناقش هدفي مع المدرب', coachCardLabel:'مرافقتك الشخصية', coachDetail1Title:'حديث قبل البداية', coachDetail1Body:'مستواك، هدفك والوقت المتاح لك.', coachDetail2Title:'تكوين في كمال الأجسام واللياقة البدنية', coachDetail2Body:'شهادتان لتكوين المدربين من International Coaching & Development Group في تلمسان.', coachDetail3Title:'توقعات واضحة', coachDetail3Body:'يتم توضيح محتوى المتابعة والشروط قبل التسجيل.', viewDiploma:'شاهد الشهادتين',
     processLabel:'بداية بسيطة', processTitle:'من التواصل الأول<br>إلى أول حصة.', step1Title:'شارك هدفك', step1Body:'اختر باقة وجهّز طلبك في لحظات.', step2Title:'تحدّث مع المدرب', step2Body:'تتفقان على البرنامج، المتابعة وطريقة الدفع.', step3Title:'ابدأ مسارك', step3Body:'تنطلق مرافقتك حسب الشروط المتفق عليها.',
     faqLabel:'قبل أن تبدأ', faqTitle:'أسئلتك.<br>إجابات واضحة.', faq1q:'هل يناسبني إذا كنت مبتدئًا؟', faq1a:'تستطيع تجهيز طلب مهما كان مستواك. التواصل الأول يساعد على التأكد أن المرافقة تناسب وضعك.', faq2q:'هل يجب أن أشترك في قاعة رياضية؟', faq2a:'اذكر هل تتدرّب في القاعة أو المنزل والمعدات المتاحة لك. يوضّح لك المدرب الإمكانيات خلال التواصل الأول.', faq3q:'ماذا تتضمن المرافقة الغذائية؟', faq3a:'تتعلق بتنظيم تغذيتك حول هدفك. تُناقش التفاصيل ومكان المكمّلات المحتمل مع المدرب.', faq4q:'كيف يتم التسجيل والدفع؟', faq4a:'جهّز طلبك ثم أرسله إلى المدرب. تتفقان على البداية، الشروط ووسيلة الدفع قبل أي تسديد.', faq5q:'هل النتائج مضمونة؟', faq5a:'تختلف النتائج حسب نقطة البداية، الالتزام والوضع الشخصي. الهدف هو بناء تقدّم واقعي دون وعد بنتيجة واحدة للجميع.',
     contactLabel:'خطوتك القادمة تبدأ منك.', contactTitle1:'هدفك.', contactTitle2:'نتحدّث عنه؟', contactIntro:'بعض المعلومات لنحضّر تواصلًا أول مفيدًا مع مدربك.', contactNote:'طلب واحد، دون التزام.<br>نختار المسار معًا.', emailWord:'البريد الإلكتروني', formTitle:'لنحضّر تواصلك الأول.', requiredNote:'* خانات إلزامية', nameLabel:'اسمك *', phoneLabel:'رقم واتساب *', emailLabel:'البريد الإلكتروني (اختياري)', goalLabel:'هدفك *', planLabel:'الباقة *', selectPlan1:'شهر واحد · 25 000 دج', selectPlan2:'شهران · 45 000 دج', selectPlan3:'3 أشهر · 60 000 دج', selectPlanDiscuss:'أريد المساعدة في الاختيار', levelLabel:'مستواك', levelBeginner:'مبتدئ', levelIntermediate:'متوسط', levelAdvanced:'متقدّم', placeLabel:'مكان التدريب', placeGym:'في القاعة', placeHome:'في المنزل', placeBoth:'كلاهما / نحدّده معًا', messageLabel:'كلمة عن هدفك (اختياري)', consent:'أوافق على إرسال هذه المعلومات إلى المدرب للتواصل معي بشأن طلبي.', prepareRequest:'جهّز طلبي', formPrivacy:'تراجع رسالتك قبل اختيار وسيلة الإرسال.', privacyLink:'الخصوصية',
     footerLine:'التقدّم يبدأ بخطوة أولى.', footerContact:'تواصل معنا', rights:'كل الحقوق محفوظة.', footerLocation:'تدريب رياضي · الجزائر', mobileNote:'تدريب + تغذية + متابعة',
-    requestLabel:'خطوتك الأولى', requestTitle:'طلبك جاهز.', requestIntro:'راجع رسالتك ثم اختر طريقة إرسالها إلى المدرب.', contactUnavailable:'بيانات التواصل مع المدرب ستكون متاحة قريبًا. يمكنك نسخ طلبك للاحتفاظ به.', sendWhatsapp:'أرسل عبر واتساب', sendEmail:'أرسل بالبريد الإلكتروني', copyRequest:'انسخ طلبي', paymentLink:'اطّلع على طريقة الدفع', requestNote:'تجهيز الطلب أو نسخه لا يرسله إلى المدرب. الإرسال يتم داخل واتساب أو تطبيق البريد الإلكتروني.', diplomaTitle:'دبلوم المدرب',
+    requestLabel:'خطوتك الأولى', requestTitle:'طلبك جاهز.', requestIntro:'راجع رسالتك ثم اختر طريقة إرسالها إلى المدرب.', contactUnavailable:'بيانات التواصل مع المدرب ستكون متاحة قريبًا. يمكنك نسخ طلبك للاحتفاظ به.', sendWhatsapp:'أرسل عبر واتساب', sendEmail:'أرسل بالبريد الإلكتروني', copyRequest:'انسخ طلبي', paymentLink:'اطّلع على طريقة الدفع', requestNote:'تجهيز الطلب أو نسخه لا يرسله إلى المدرب. الإرسال يتم داخل واتساب أو تطبيق البريد الإلكتروني.', diplomaTitle:'شهادات مهدي',
     privacyTitle:'معلوماتك الشخصية.', privacyBody1:'تُستخدم المعلومات لتجهيز طلب التدريب. لا يتم إرسال أي طلب تلقائيًا.', privacyBody2:'عندما تختار واتساب أو البريد، تُفتح الرسالة في الخدمة المختارة. أنت تقرّر إرسالها، وعندها تصل المعلومات إلى المدرب عبر تلك الخدمة.', privacyBody3:'هذا الموقع لا يحفظ معلومات النموذج. تجنّب إضافة وثائق أو تفاصيل طبية إلى رسالتك الأولى.', privacyBody4:'قد تُحفظ اللغة المفضّلة على جهازك لزيارتك القادمة.'
   };
   const dynamicText = {
@@ -68,18 +68,35 @@
   const whatsapp = typeof config.whatsapp === 'string' ? config.whatsapp.replace(/[\s()+.-]/g, '') : '';
   const whatsappNumber = /^[1-9]\d{7,14}$/.test(whatsapp) ? whatsapp : '';
   const email = typeof config.email === 'string' && /^[^\s@?&#]+@[^\s@?&#]+\.[^\s@?&#]+$/.test(config.email) ? config.email : '';
+  const directWhatsapp = document.getElementById('direct-whatsapp');
+  directWhatsapp.hidden = !whatsappNumber;
+  if (whatsappNumber) directWhatsapp.href = 'https://wa.me/' + whatsappNumber;
+  const directEmail = document.getElementById('direct-email');
+  directEmail.hidden = !email;
+  if (email) directEmail.href = 'mailto:' + email;
   const paymentUrl = safeUrl(config.paymentUrl);
-  const diplomaUrl = safeUrl(config.diplomaImage, true);
+  const diplomas = (Array.isArray(config.diplomas) ? config.diplomas : []).map(item => ({...item, url: safeUrl(item.image, true)})).filter(item => item.url);
   const coachPhoto = safeUrl(config.coachPhoto, true);
   if (coachPhoto) {
     const photo = document.getElementById('coach-photo');
     photo.src = coachPhoto; photo.hidden = false;
     photo.addEventListener('error', () => {photo.hidden = true;});
   }
-  if (diplomaUrl) {
-    document.getElementById('view-diploma').hidden = false;
-    document.getElementById('diploma-image').src = diplomaUrl;
-    document.getElementById('diploma-caption').textContent = typeof config.diplomaTitle === 'string' ? config.diplomaTitle : '';
+  document.getElementById('view-diploma').hidden = diplomas.length === 0;
+  function renderDiplomas() {
+    const gallery = document.getElementById('diploma-gallery');
+    gallery.replaceChildren();
+    diplomas.forEach(diploma => {
+      const figure = document.createElement('figure');
+      const caption = document.createElement('figcaption');
+      caption.textContent = (locale === 'ar' ? diploma.titleAr : diploma.title) || dynamicText[locale].diplomaAlt;
+      const image = document.createElement('img');
+      image.src = diploma.url;
+      image.alt = caption.textContent;
+      image.loading = 'lazy';
+      figure.append(caption, image);
+      gallery.appendChild(figure);
+    });
   }
   function updateGoal(goal) {
     if (!dynamicText[locale].goalData[goal]) return;
@@ -112,7 +129,7 @@
     navigation.setAttribute('aria-label',dynamicText[locale].navigation);
     document.getElementById('coach-name').textContent = config.coachName && config.coachName !== 'Votre coach' ? config.coachName : dynamicText[locale].defaultCoach;
     document.getElementById('hero-image').alt = dynamicText[locale].heroAlt;
-    document.getElementById('diploma-image').alt = dynamicText[locale].diplomaAlt;
+    renderDiplomas();
     document.querySelector('.site-header .brand').setAttribute('aria-label',brand + (locale==='ar' ? '، الرئيسية' : ', accueil'));
     document.title = brand + ' — ' + dynamicText[locale].title;
     document.querySelector('meta[name="description"]').content = dynamicText[locale].description;
@@ -150,7 +167,7 @@
   });
   document.querySelectorAll('[data-close]').forEach(button=>button.addEventListener('click',()=>button.closest('dialog').close()));
   document.getElementById('privacy-button').addEventListener('click',()=>openDialog(document.getElementById('privacy-dialog')));
-  document.getElementById('view-diploma').addEventListener('click',()=>{if(diplomaUrl)openDialog(document.getElementById('diploma-dialog'));});
+  document.getElementById('view-diploma').addEventListener('click',()=>{if(diplomas.length)openDialog(document.getElementById('diploma-dialog'));});
   function translatedOption(field, value) {
     const option = Array.from(form.elements[field].options).find(option=>option.value === value);
     return option ? option.textContent : '';
