@@ -3,13 +3,15 @@
   const config = window.COACH_CONFIG || {};
   const plans = Object.freeze({1: {months: 1, total: 25000}, 2: {months: 2, total: 45000}, 3: {months: 3, total: 60000}});
   const arabic = {
+    heroQualification:'تكوين في كمال الأجسام واللياقة البدنية', portraitLabel:'مدربك', portraitSpecialty:'كمال الأجسام · اللياقة البدنية',
+    credentialsLabel:'التكوين وراء المرافقة', credentialsTitle1:'مدرب واحد. تكوينان.', credentialsTitle2:'التزام بمرافقتك.', credentialsIntro:'شهادات مهدي في كمال الأجسام واللياقة البدنية من International Coaching & Development Group في تلمسان.', credentialMuscle:'كمال الأجسام', credentialFitness:'اللياقة البدنية', credentialTraining:'تكوين المدربين · 50 ساعة', credentialsCta:'لنناقش هدفك ↗',
     skip:'الانتقال إلى المحتوى', brandSub:'تدريب رياضي شخصي', navApproach:'المنهج', navPrograms:'البرامج', navPricing:'الباقات', navCoach:'المدرب', start:'ابدأ الآن',
     heroLabel:'تدريب رياضي · الجزائر', heroLine1:'قدراتك.', heroLine2:'طموحك.', heroLine3:'خطوتك القادمة.', heroDescription:'تدريب يناسبك. تغذية تناسب هدفك. ومدرب يرافقك لبناء تقدّمك خطوة بخطوة.', discoverPlans:'اختر باقتك', discoverMethod:'اكتشف المنهج', heroPersonal:'مستواك. إيقاعك.', heroRemote:'تدريب عن بُعد', heroCaption:'الاستمرارية تصنع الفرق.', stampTop:'هدف واحد.', stampMain:'تقدّمك<br>الشخصي.', stampBottom:'نبنيه معًا.',
     strip1:'التدريب', strip2:'التغذية', strip3:'المتابعة', strip4:'التقدّم', approachLabel:'01 / منهج واضح للتقدّم', approachTitle1:'هدف واضح.', approachTitle2:'خطة تناسبك أنت.', approachIntro:'البرنامج المناسب هو الذي تستطيع الالتزام به. نبني مرافقتك حول مستواك، وقتك وحياتك اليومية.',
     pillar1Title:'تدرّب بخطة', pillar1Body:'حصص منظمة حسب هدفك والمعدات المتاحة لك، لتعرف ماذا تفعل وكيف تتقدّم.', pillar1Tag:'برنامج رياضي', pillar2Title:'نظّم تغذيتك', pillar2Body:'توجيهات غذائية تناسب عاداتك وهدفك، مع مناقشة المكمّلات عند الحاجة.', pillar2Tag:'مرافقة غذائية', pillar3Title:'تقدّم مع مدرب', pillar3Body:'تبادل حول حصصك، الصعوبات التي تواجهك وتقدّمك لتعديل الخطوات القادمة معًا.', pillar3Tag:'متابعة شخصية',
     programsLabel:'02 / نقطة البداية', programsTitle:'ما الهدف الذي<br>يدفعك للأمام؟', programsIntro:'نبدأ بهدف، ونبني حوله مسارك.', goalMuscle:'زيادة العضلات', goalWeight:'خسارة الوزن', goalFitness:'تحسين اللياقة', goalOther:'نحدّده معًا', chooseGoal:'هذا هو هدفي',
     pricingLabel:'03 / المدة التي تناسبك', pricingTitle1:'اختر المدة.', pricingTitle2:'ونبني معًا الخطة.', pricingIntro:'تدريب، مرافقة غذائية ومتابعة شخصية في كل باقة.', plan1Tag:'الخطوة الأولى', plan1Name:'البداية', month1:'شهر واحد من التدريب', plan1Monthly:'25 000 دج / شهر', plan2Tag:'بناء الإيقاع', plan2Name:'التطوّر', month2:'شهران من التدريب', plan2Monthly:'22 500 دج / شهر · توفير 5 000 دج*', plan3Tag:'الاستمرارية', plan3Name:'التحوّل', month3:'ثلاثة أشهر من التدريب', plan3Monthly:'20 000 دج / شهر · توفير 15 000 دج*', feature1:'برنامج تدريب مناسب لمستواك', feature2:'مرافقة غذائية', feature3:'توجيهات حول المكمّلات', feature4:'متابعة وتعديلات مع المدرب', choose1:'اختر شهرًا واحدًا', choose2:'اختر شهرين', choose3:'اختر ثلاثة أشهر', savingsNote:'* مقارنة بتكلفة اشتراك شهر واحد بشكل منفصل لنفس المدة.', paymentNote:'لا دفع عند تقديم الطلب. يتم الاتفاق على طريقة الدفع مع المدرب قبل البداية.',
-    coachLabel:'التدريب أيضًا علاقة ثقة.', coachTitle1:'أنت تبذل الجهد.', coachTitle2:'ونبقى على المسار.', coachIntro:'البرنامج وحده لا يكفي. أن تسأل، تفهم التمرين وتعدّل إيقاعك: هذا ما يعطي المرافقة معناها.', talkCoach:'ناقش هدفي مع المدرب', coachCardLabel:'مرافقتك الشخصية', coachDetail1Title:'حديث قبل البداية', coachDetail1Body:'مستواك، هدفك والوقت المتاح لك.', coachDetail2Title:'تكوين في كمال الأجسام واللياقة البدنية', coachDetail2Body:'شهادتان لتكوين المدربين من International Coaching & Development Group في تلمسان.', coachDetail3Title:'توقعات واضحة', coachDetail3Body:'يتم توضيح محتوى المتابعة والشروط قبل التسجيل.', viewDiploma:'شاهد الشهادتين',
+    coachLabel:'التدريب أيضًا علاقة ثقة.', coachTitle1:'أنت تبذل الجهد.', coachTitle2:'ونبقى على المسار.', coachIntro:'البرنامج وحده لا يكفي. أن تسأل، تفهم التمرين وتعدّل إيقاعك: هذا ما يعطي المرافقة معناها.', talkCoach:'ناقش هدفي مع المدرب', coachCardLabel:'مرافقتك الشخصية', coachDetail1Title:'حديث قبل البداية', coachDetail1Body:'مستواك، هدفك والوقت المتاح لك.', coachDetail2Title:'تكوين في كمال الأجسام واللياقة البدنية', coachDetail2Body:'شهادتان لتكوين المدربين من International Coaching & Development Group في تلمسان.', coachDetail3Title:'توقعات واضحة', coachDetail3Body:'يتم توضيح محتوى المتابعة والشروط قبل التسجيل.', viewDiploma:'تعرّف على تكويني ↗',
     processLabel:'بداية بسيطة', processTitle:'من التواصل الأول<br>إلى أول حصة.', step1Title:'شارك هدفك', step1Body:'اختر باقة وجهّز طلبك في لحظات.', step2Title:'تحدّث مع المدرب', step2Body:'تتفقان على البرنامج، المتابعة وطريقة الدفع.', step3Title:'ابدأ مسارك', step3Body:'تنطلق مرافقتك حسب الشروط المتفق عليها.',
     faqLabel:'قبل أن تبدأ', faqTitle:'أسئلتك.<br>إجابات واضحة.', faq1q:'هل يناسبني إذا كنت مبتدئًا؟', faq1a:'تستطيع تجهيز طلب مهما كان مستواك. التواصل الأول يساعد على التأكد أن المرافقة تناسب وضعك.', faq2q:'هل يجب أن أشترك في قاعة رياضية؟', faq2a:'اذكر هل تتدرّب في القاعة أو المنزل والمعدات المتاحة لك. يوضّح لك المدرب الإمكانيات خلال التواصل الأول.', faq3q:'ماذا تتضمن المرافقة الغذائية؟', faq3a:'تتعلق بتنظيم تغذيتك حول هدفك. تُناقش التفاصيل ومكان المكمّلات المحتمل مع المدرب.', faq4q:'كيف يتم التسجيل والدفع؟', faq4a:'جهّز طلبك ثم أرسله إلى المدرب. تتفقان على البداية، الشروط ووسيلة الدفع قبل أي تسديد.', faq5q:'هل النتائج مضمونة؟', faq5a:'تختلف النتائج حسب نقطة البداية، الالتزام والوضع الشخصي. الهدف هو بناء تقدّم واقعي دون وعد بنتيجة واحدة للجميع.',
     contactLabel:'خطوتك القادمة تبدأ منك.', contactTitle1:'هدفك.', contactTitle2:'نتحدّث عنه؟', contactIntro:'بعض المعلومات لنحضّر تواصلًا أول مفيدًا مع مدربك.', contactNote:'طلب واحد، دون التزام.<br>نختار المسار معًا.', emailWord:'البريد الإلكتروني', formTitle:'لنحضّر تواصلك الأول.', requiredNote:'* خانات إلزامية', nameLabel:'اسمك *', phoneLabel:'رقم واتساب *', emailLabel:'البريد الإلكتروني (اختياري)', goalLabel:'هدفك *', planLabel:'الباقة *', selectPlan1:'شهر واحد · 25 000 دج', selectPlan2:'شهران · 45 000 دج', selectPlan3:'3 أشهر · 60 000 دج', selectPlanDiscuss:'أريد المساعدة في الاختيار', levelLabel:'مستواك', levelBeginner:'مبتدئ', levelIntermediate:'متوسط', levelAdvanced:'متقدّم', placeLabel:'مكان التدريب', placeGym:'في القاعة', placeHome:'في المنزل', placeBoth:'كلاهما / نحدّده معًا', messageLabel:'كلمة عن هدفك (اختياري)', consent:'أوافق على إرسال هذه المعلومات إلى المدرب للتواصل معي بشأن طلبي.', prepareRequest:'جهّز طلبي', formPrivacy:'تراجع رسالتك قبل اختيار وسيلة الإرسال.', privacyLink:'الخصوصية',
@@ -28,7 +30,7 @@
       defaultCoach:'Votre coach', close:'Fermer', menuOpen:'Ouvrir le menu', menuClose:'Fermer le menu', navigation:'Navigation principale', chooseGoal:'Choisir un objectif',
       copied:'Demande copiée. Vous pouvez la coller dans une conversation.', copyFallback:'Sélectionnez le message ci-dessus pour le copier.', nameError:'Indiquez votre nom.', phoneError:'Indiquez un numéro valide, avec 8 à 15 chiffres.',
       title:'Coaching sportif personnalisé en Algérie', description:'Entraînement, accompagnement alimentaire et suivi. Découvrez les formules de 1, 2 et 3 mois et préparez votre demande de coaching.',
-      messageStart:'Bonjour, je souhaite découvrir votre coaching.', messageLabels:['Nom','WhatsApp','Email','Objectif','Formule','Niveau','Entraînement','Message'], messageEnd:'Pouvez-vous me confirmer le contenu du suivi, la disponibilité et les modalités de paiement ? Merci.', emailSubject:'Demande de coaching', healthConsent:'J’accepte d’être recontacté au sujet de cette demande.', month:'mois', currency:'DA', diplomaAlt:'Diplôme du coach', heroAlt:'Un athlète s’entraîne avec un haltère dans une salle de musculation'
+      messageStart:'Bonjour, je souhaite découvrir votre coaching.', messageLabels:['Nom','WhatsApp','Email','Objectif','Formule','Niveau','Entraînement','Message'], messageEnd:'Pouvez-vous me confirmer le contenu du suivi, la disponibilité et les modalités de paiement ? Merci.', emailSubject:'Demande de coaching', healthConsent:'J’accepte d’être recontacté au sujet de cette demande.', month:'mois', currency:'DA', diplomaAlt:'Diplôme du coach', heroAlt:'Mahdi, votre coach en musculation et fitness'
     },
     ar: {
       goalData: {
@@ -39,7 +41,7 @@
       placeholders:{namePlaceholder:'اسمك الكامل',emailPlaceholder:'you@example.com',messagePlaceholder:'هدفك والوقت المتاح لك…'}, defaultCoach:'مدربك', close:'إغلاق', menuOpen:'افتح القائمة',menuClose:'أغلق القائمة', navigation:'القائمة الرئيسية',chooseGoal:'اختر هدفًا',
       copied:'تم نسخ الطلب. يمكنك لصقه في المحادثة.',copyFallback:'حدّد الرسالة أعلاه لنسخها.',nameError:'أدخل اسمك.',phoneError:'أدخل رقمًا صحيحًا من 8 إلى 15 رقمًا.',
       title:'تدريب رياضي شخصي في الجزائر',description:'تدريب، مرافقة غذائية ومتابعة. اكتشف باقات شهر، شهرين وثلاثة أشهر وجهّز طلب التدريب.',
-      messageStart:'مرحبًا، أريد معرفة المزيد عن برنامج التدريب.',messageLabels:['الاسم','واتساب','البريد الإلكتروني','الهدف','الباقة','المستوى','مكان التدريب','رسالة'],messageEnd:'هل يمكن تأكيد محتوى المتابعة، إمكانية التسجيل وطريقة الدفع؟ شكرًا.',emailSubject:'طلب تدريب رياضي',healthConsent:'أوافق على التواصل معي بشأن هذا الطلب.',month:'أشهر',currency:'دج',diplomaAlt:'دبلوم المدرب',heroAlt:'رياضي يتدرّب بالأثقال في قاعة رياضية'
+      messageStart:'مرحبًا، أريد معرفة المزيد عن برنامج التدريب.',messageLabels:['الاسم','واتساب','البريد الإلكتروني','الهدف','الباقة','المستوى','مكان التدريب','رسالة'],messageEnd:'هل يمكن تأكيد محتوى المتابعة، إمكانية التسجيل وطريقة الدفع؟ شكرًا.',emailSubject:'طلب تدريب رياضي',healthConsent:'أوافق على التواصل معي بشأن هذا الطلب.',month:'أشهر',currency:'دج',diplomaAlt:'دبلوم المدرب',heroAlt:'مهدي، مدربك في كمال الأجسام واللياقة البدنية'
     }
   };
   const original = new Map();
@@ -82,7 +84,6 @@
     photo.src = coachPhoto; photo.hidden = false;
     photo.addEventListener('error', () => {photo.hidden = true;});
   }
-  document.getElementById('view-diploma').hidden = diplomas.length === 0;
   function renderDiplomas() {
     const gallery = document.getElementById('diploma-gallery');
     gallery.replaceChildren();
@@ -130,6 +131,14 @@
     document.getElementById('coach-name').textContent = config.coachName && config.coachName !== 'Votre coach' ? config.coachName : dynamicText[locale].defaultCoach;
     document.getElementById('hero-image').alt = dynamicText[locale].heroAlt;
     renderDiplomas();
+    document.getElementById('coach-photo').alt = dynamicText[locale].heroAlt;
+    document.querySelectorAll('[data-certificate]').forEach((button,index) => {
+      const diploma = diplomas[index];
+      if (!diploma) return;
+      const title = locale === 'ar' ? diploma.titleAr : diploma.title;
+      button.setAttribute('aria-label',(locale === 'ar' ? 'تكبير الشهادة: ' : 'Agrandir le certificat : ') + title);
+      button.querySelector('img').alt = title;
+    });
     document.querySelector('.site-header .brand').setAttribute('aria-label',brand + (locale==='ar' ? '، الرئيسية' : ', accueil'));
     document.title = brand + ' — ' + dynamicText[locale].title;
     document.querySelector('meta[name="description"]').content = dynamicText[locale].description;
@@ -167,7 +176,13 @@
   });
   document.querySelectorAll('[data-close]').forEach(button=>button.addEventListener('click',()=>button.closest('dialog').close()));
   document.getElementById('privacy-button').addEventListener('click',()=>openDialog(document.getElementById('privacy-dialog')));
-  document.getElementById('view-diploma').addEventListener('click',()=>{if(diplomas.length)openDialog(document.getElementById('diploma-dialog'));});
+  document.querySelectorAll('[data-certificate]').forEach(button => button.addEventListener('click', () => {
+    if (!diplomas.length) return;
+    const dialog = document.getElementById('diploma-dialog');
+    openDialog(dialog);
+    const figure = document.getElementById('diploma-gallery').children[Number(button.dataset.certificate)];
+    if (figure) figure.scrollIntoView({block:'start', behavior:'instant'});
+  }));
   function translatedOption(field, value) {
     const option = Array.from(form.elements[field].options).find(option=>option.value === value);
     return option ? option.textContent : '';
